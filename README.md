@@ -73,10 +73,6 @@ This project implements and experiments with Graph Neural Networks (GNNs) for gr
 ## System Requirements
 
 ### Hardware Requirements
-- CPU: 4+ cores recommended
-- RAM: 16GB minimum, 32GB recommended
-- GPU: NVIDIA GPU with 8GB+ VRAM (for training)
-- Storage: 50GB+ free space
 
 ### Software Requirements
 - Python 3.8+
@@ -236,17 +232,17 @@ This project is distributed under the MIT License. See the `LICENSE` file for mo
 If you use this code in your research, please cite:
 ```
 @misc{gnn-project,
-  author = {Your Name},
+  author = {},
   title = {Graph Neural Network Project},
   year = {2024},
   publisher = {GitHub},
-  url = {https://github.com/yourusername/Graph}
+  url = {https://github.com/haitranduc4270/Graph}
 }
 ```
 
 ## Contact
 
-- Author: [Your Name]
-- Email: [Your Email]
-- GitHub: [Your GitHub Profile]
-- LinkedIn: [Your LinkedIn Profile]
+- Author: []
+- Email: []
+- GitHub: []
+- LinkedIn: []
