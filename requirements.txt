@@ -21,6 +21,15 @@ rouge-score>=0.1.2
 faiss-cpu>=1.7.0
 rapidfuzz>=3.0.0
 
-# Utilities
+# GNN specific dependencies
+torch-scatter>=2.1.0
+torch-sparse>=0.6.16
+torch-cluster>=1.6.0
+torch-spline-conv>=1.2.1
+
+# Training utilities
 tqdm>=4.65.0
-pathlib>=1.0.1 
+pathlib>=1.0.1
+tensorboard>=2.13.0
+matplotlib>=3.7.0
+seaborn>=0.12.0 
