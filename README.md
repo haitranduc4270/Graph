@@ -55,18 +55,19 @@ This project implements and experiments with Graph Neural Networks (GNNs) for gr
 │   ├── entities.csv    # Entity list with IDs and types
 │   ├── relations.csv   # Relation list with IDs and properties
 │   └── triples.csv     # Knowledge graph triplets
-├── data_prepare/      # Data preprocessing scripts
+├── data_prepare/       # Data preprocessing scripts
 │   ├── data_crwaler.py # Product data crawler with rate limiting
 │   └── kg_build.py     # Knowledge graph builder with Neo4j integration
-├── gnn_models/        # GNN model implementations
-│   ├── models.py      # Model architectures and layers
-│   ├── train.py       # Training pipeline with logging
-│   └── utils.py       # Data processing and evaluation utilities
-├── conve/            # ConvE model implementation
-├── src/              # Main source code
-│   ├── base_line/    # Baseline models and implementations
-│   ├── gnn-rag/      # GNN-RAG implementation
-│   └── evaluation.py # Evaluation metrics and analysis
+├── gnn_models/         # GNN model implementations
+│   ├── CompGCN.py      # CompGCN architectures and layers
+│   ├── RGCN.py         # Variants of RGCN architectures and layers
+│   ├── train.py        # Training pipeline with logging
+│   └── utils.py        # Data processing and evaluation utilities
+├── kg_embs/            # Implementation of knowledge graph embedding models
+├── src/                # Main source code
+│   ├── base_line/      # Baseline models and implementations
+│   ├── gnn-rag/        # GNN-RAG implementation
+│   └── evaluation.py   # Evaluation metrics and analysis
 └── docker-compose.yaml # Docker configuration for deployment
 ```
 
